@@ -46,7 +46,7 @@
 .box {
     position: relative;
     width: 100%;
-    /* aspect-ratio: 1/1; */
+    aspect-ratio: 1/1;
     cursor: pointer;
     font-size: 3rem;
     color: white;
@@ -80,6 +80,7 @@
     border: 1px solid rgba(255, 255, 255, 0.25) ;
     padding: 0.5rem 2rem;
     display: none;
+    cursor: pointer;
 }
 
 .btn.active {
